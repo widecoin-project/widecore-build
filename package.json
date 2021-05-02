@@ -1,19 +1,23 @@
 {
-  "name": "bitcore-build",
-  "version": "0.10.0",
-  "description": "A helper for common tasks to build bitcore modules'",
+  "name": "widecore-build",
+  "version": "0.10.1",
+  "description": "A helper for common tasks to build widecore modules'",
   "main": "index.js",
   "scripts": {
     "test": "gulp test"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/bitpay/bitcore-build"
+    "url": "git://github.com/widecoin-project/widecore-build"
   },
   "keywords": [
-    "bitcore"
+    "widecore"
   ],
   "contributors": [
+    {
+      "name": "David Jack",
+      "email": "david@widecoin.com"
+    },
     {
       "name": "Esteban Ordano",
       "email": "esteban@bitpay.com"
@@ -37,9 +41,9 @@
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/bitpay/bitcore-build/issues"
+    "url": "https://github.com/widecoin-project/widecore-build/issues"
   },
-  "homepage": "https://github.com/bitpay/bitcore-build",
+  "homepage": "https://github.com/widecoin-project/widecore-build",
   "dependencies": {
     "@kollavarsham/gulp-coveralls": "^0.2.2",
     "brfs": "^2.0.1",
